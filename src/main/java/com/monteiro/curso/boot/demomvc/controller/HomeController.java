@@ -11,5 +11,11 @@ public class HomeController {
 		
 		return "Teste";
 	}
+	
+	@GetMapping("/pessoas")
+	public String pessoas() {
+		
+		return "Pessoas";
+	}
 
 }
