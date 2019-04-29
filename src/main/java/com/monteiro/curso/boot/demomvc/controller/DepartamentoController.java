@@ -13,7 +13,7 @@ public class DepartamentoController {
 		return "/departamento/cadastro";
 	}
 	
-	@GetMapping("/listr")
+	@GetMapping("/listar")
 	public String listar() {
 		return "/departamento/lista";
 	}
