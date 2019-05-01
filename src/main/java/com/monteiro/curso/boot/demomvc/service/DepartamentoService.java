@@ -6,6 +6,8 @@ import com.monteiro.curso.boot.demomvc.domain.Departamento;
 
 public interface DepartamentoService {
 	
+		boolean departamentoTemCargos(Long id);
+
 		void salvar(Departamento departamento);
 
 	    void editar(Departamento departamento);
